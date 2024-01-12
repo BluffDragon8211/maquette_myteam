@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/contact.css">
+  
+  <title>Frontend Mentor | myteam website challenge - Contact</title>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.svg" id="logo" alt="Logo du site">
+    <a href="#menuburger"><img src="assets/icon-hamburger.svg" id="hamburgerlogo" alt="Ouvrir menu"></a>
+    <div id="menuburger">
+      <a href="contact.html"><img src="assets/icon-close.svg" alt="Fermer menu" id="croix"></a>
+      <a href="index.html" id="homelink">home</a>
+      <a href="about.html" id="aboutlink">about</a>
+      <a href="contact.html" id="contactlink">contact us</a>
+    </div>
+    <div id="loading" class="hide"></div>
+  </header>
+  <main>
+    <section id="introarticle">
+      <h2>Contact</h2>
+      <h2><span>Ask us about</span></h2>
+      <ul id="asklist">
+        <li>
+          <img src="assets/icon-person.svg" alt="Icone personne">
+          <p>The quality of our talent network</p>
+        </li>
+        <li>
+          <img src="assets/icon-cog.svg" alt="Icone roue denté">
+          <p>Usage & implementation of our software</p>
+        </li>
+        <li>
+          <img src="assets/icon-chart.svg" alt="Icone charte">
+          <p>How we help drive innovation</p>
+        </li>
+      </ul>
+    </section>
+    <section id="formsec">
+      <form>
+        <input type="text" name="name" placeholder="Name" class="inputs" autocomplete="off">
+        <hr>
+        <small class="hide">This input is unvalid or required</small>
+        <input type="email" name="mail" placeholder="Email Address" class="inputs" autocomplete="off">
+        <hr>
+        <small class="hide">This input is unvalid or required</small>
+        <input type="text" name="company" placeholder="Company Name" class="inputs" autocomplete="off">
+        <hr>
+        <small class="hide">This input is unvalid or required</small>
+        <input type="text" name="title" placeholder="Title" class="inputs" autocomplete="off">
+        <hr>
+        <small class="hide">This input is unvalid or required</small>
+        <textarea name="message" placeholder="Message" cols="30" rows="3" class="inputs"></textarea>
+        <hr>
+        <small class="hide">This input is unvalid or required</small><br>
+        <input type="submit" name="ok" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <article>
+      <div>
+        <img src="assets/logo.svg" alt="Logo du site">
+        <nav>
+          <a href="index.html">home</a>
+          <a href="about.html">about</a>
+        </nav>
+      </div>
+      <div>
+        <p class="info">987  Hillcrest Lane</p>
+        <p class="info">Irvine, CA</p>
+        <p class="info">California 92714</p>
+        <p class="info">Call Us : 949-833-7432</p>
+      </div>
+      <div id="medias">
+        <img src="assets/icon-facebook.svg" alt="Icone de facebook" class="footicon">
+        <img src="assets/icon-pinterest.svg" alt="Icone de pinterest" class="footicon">
+        <img src="assets/icon-twitter.svg" alt="Icone de twitter" class="footicon">
+      </div>
+      <p class="info">Copyright 2020. All Rights Reserved</p>
+    </article>
+  </footer>
+  <script src="scripts/home.js"></script>
+  <script src="scripts/contact.js"></script>
+</body>
+</html>
